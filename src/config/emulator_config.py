@@ -1,0 +1,30 @@
+"""Emulator config"""
+
+import os.path
+
+AVD_NAME = 'hooked'
+AVD_HOME = ''
+AVD_FOLDER = os.path.join(AVD_HOME, AVD_NAME + '.avd')
+
+EMULATOR_PATH = 'emulator64-arm'
+ADB_PATH = 'adb'
+AAPT_PATH = 'aapt'
+
+NO_WINDOW = False
+SCALE = False
+CMD_WAIT_TIME = 240
+MONKEY_TIMEOUT = 600
+MAX_INSTALLATION_TRIALS = 3
+OPERATIONS_SLEEPTIME = 0.5
+ANALYSIS_TIMEOUT = 5
+
+# ---- Monkey's options ----
+
+THROTTLE = '1000'
+PCT_SYSKEYS = '0'
+PCT_ANYEVENT = '0'
+IGNORE_CRASHES = True
+IGNORE_TIMEOUTS = True
+IGNORE_SECURITY_EXCEPTIONS = False
+NUM_EVENTS = '2000'
+SEED = '123456'
