@@ -2,17 +2,15 @@
 
 ## Research paper
 
-We present the findings of this work in a research paper:
+We present the findings of this work in the following research paper:
 
 **Obfuscation-Resilient Privacy Leak Detection for Mobile Apps Through Differential Analysis**  
 Andrea Continella, Yanick Fratantonio, Martina Lindorfer, Alessandro Puccetti, Ali Zand, Christopher Kruegel, Giovanni Vigna.
-*In Proceedings of the ISOC Network and Distributed System Security Symposium (NDSS). San Diego, CA February, 2017*
+*In Proceedings of the ISOC Network and Distributed System Security Symposium (NDSS), February 2017*
 
 [[PDF](http://cs.ucsb.edu/~yanick/publications/2017_ndss_agrigento.pdf)]
-[[Bibtex](http://cs.ucsb.edu/~yanick/publications/2017_ndss_agrigento.bib)]
 
-If you use *Agrigento* in a scientific publication, we would appreciate citations to the previous paper.  
-Please use this **Bibtex** entry:
+If you use *Agrigento* in a scientific publication, we would appreciate citations using this **Bibtex** entry:
 ``` tex
 @InProceedings{continella17:agrigento,
   author = {Andrea Continella and Yanick Fratantonio and Martina Lindorfer and Alessandro Puccetti and Ali Zand and Christopher Kruegel and Giovanni Vigna},
@@ -26,7 +24,7 @@ Please use this **Bibtex** entry:
 
 ## Introduction
 
-Agrigento is based on black-box differential analysis, and it works in two steps: first, it establishes a baseline of the network behavior of an app; then, it modifies sources of private information, such as the device ID and location, and detects leaks by observing deviations in the resulting network traffic. The basic concept of black-box differential analysis is not novel, but, unfortunately, it is not practical enough to precisely analyze modern mobile apps. In fact, their network traffic contains many sources of non-determinism, such as random identifiers, timestamps, and server-assigned session identifiers, which, when not handled properly, cause too much noise to correlate output changes with input changes.
+Agrigento is based on black-box differential analysis, and it works in two steps: first, it establishes a baseline of the network behavior of an app; then, it modifies sources of private information, such as the device ID and location, and detects privacy leaks by observing deviations in the resulting network traffic. The basic concept of black-box differential analysis is not novel, but, unfortunately, it is not practical enough to precisely analyze modern mobile apps. In fact, their network traffic contains many sources of non-determinism, such as random identifiers, timestamps, and server-assigned session identifiers, which, when not handled properly, cause too much noise to correlate output changes with input changes.
 The main contribution of this work is to make black-box differential analysis practical when applied to modern Android apps.
 
 Agrigento is able to eliminate the different sources of non-determinism by intercepting calls from the app to certain Android API calls and recording their return values, and in
@@ -40,4 +38,4 @@ some cases replacing them (either by replaying previously seen values or by retu
 
 ## Dataset release
 
-In the spirit of open science we are happy to release our datasets to the community. If you are interested in getting access to our data, send us an email ([andrea.continella@polimi.it](mailto:andrea.continella@polimi.it), [yanick@cs.ucsb.edu](mailto:yanick@cs.ucsb.edu), [martina@cs.ucsb.edu](mailto:martina@cs.ucsb.edu)).
+In the spirit of open science we are happy to release our datasets to the community. If you are interested in getting access to our data, send us an email ([andrea.continella@polimi.it](mailto:andrea.continella@polimi.it), [yanick@cs.ucsb.edu](mailto:yanick@cs.ucsb.edu), [martina@iseclab.org](mailto:martina@iseclab.org)).
