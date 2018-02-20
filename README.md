@@ -8,7 +8,7 @@ We present the findings of this work in the following research paper:
 Andrea Continella, Yanick Fratantonio, Martina Lindorfer, Alessandro Puccetti, Ali Zand, Christopher Kruegel, Giovanni Vigna.
 *In Proceedings of the ISOC Network and Distributed System Security Symposium (NDSS), February 2017*
 
-[[PDF](http://cs.ucsb.edu/~yanick/publications/2017_ndss_agrigento.pdf)]
+[[PDF](https://conand.me/publications/continella-agrigento-2017.pdf)]
 
 If you use *Agrigento* in a scientific publication, we would appreciate citations using this **Bibtex** entry:
 ``` tex
@@ -38,4 +38,4 @@ some cases replacing them (either by replaying previously seen values or by retu
 
 ## Dataset release
 
-In the spirit of open science we are happy to release our datasets to the community. If you are interested in getting access to our data, send us an email ([andrea.continella@polimi.it](mailto:andrea.continella@polimi.it), [yanick@cs.ucsb.edu](mailto:yanick@cs.ucsb.edu), [martina@iseclab.org](mailto:martina@iseclab.org)).
+In the spirit of open science we are happy to release our datasets to the community. If you are interested in getting access to our data, send us an email ([acontinella@iseclab.org](mailto:acontinella@iseclab.org), [yanick@cs.ucsb.edu](mailto:yanick@cs.ucsb.edu), [martina@iseclab.org](mailto:martina@iseclab.org)).
