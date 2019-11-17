@@ -5,14 +5,14 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Utils {
-    private static String packageFile = "/data/changer/packagename.txt";
-    private static String phoneNumFile = "/data/changer/phonenumber.txt";
-    private static String simSerialNumFile = "/data/changer/simserialnum.txt";
-    private static String subscriberIDFile = "/data/changer/subscriberid.txt";
-    private static String deviceIDFile = "/data/changer/deviceid.txt";
-    private static String MACAddrFile = "/data/changer/macaddr.txt";
-    private static String emailFile = "/data/changer/email.txt";
-    private static String genderFile = "/data/changer/gender.txt";
+    private static String packageFile = "/sdcard/changer/packagename.txt";
+    private static String phoneNumFile = "/sdcard/changer/phonenumber.txt";
+    private static String simSerialNumFile = "/sdcard/changer/simserialnum.txt";
+    private static String subscriberIDFile = "/sdcard/changer/subscriberid.txt";
+    private static String deviceIDFile = "/sdcard/changer/deviceid.txt";
+    private static String MACAddrFile = "/sdcard/changer/macaddr.txt";
+    private static String emailFile = "/sdcard/changer/email.txt";
+    private static String genderFile = "/sdcard/changer/gender.txt";
 
 
     public static String readLineFromFile(String fname){

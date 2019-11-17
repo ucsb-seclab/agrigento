@@ -24,15 +24,15 @@ import de.robv.android.xposed.XposedBridge;
 public class Utils {
     private static String folderName = "CryptoHooker";
     private static String TAG_DATA = "[CRYPTOHOOKER-DATA]";
-    private static String packageFile = "/data/cryptohooker/packagename.txt";
-    private static String logFile = "/data/cryptohooker/log.txt";
-    private static String randomNumFile = "/data/cryptohooker/random-num.txt";
-    private static String randomNumFilesBase = "/data/cryptohooker/random-num";
+    private static String packageFile = "/sdcard/cryptohooker/packagename.txt";
+    private static String logFile = "/sdcard/cryptohooker/log.txt";
+    private static String randomNumFile = "/sdcard/cryptohooker/random-num.txt";
+    private static String randomNumFilesBase = "/sdcard/cryptohooker/random-num";
 
-    private static String recordTimestampsFile = "/mnt/obb/cryptohooker-ts/record-timestamps";
-    private static String tsFilesBaseInitial = "/mnt/obb/cryptohooker-ts/initial-ts-";
-    private static String tsFilesBase = "/mnt/obb/cryptohooker-ts/ts-";
-    private static String indexFilesBase = "/mnt/obb/cryptohooker-ts/index-";
+    private static String recordTimestampsFile = "/sdcard/cryptohooker-ts/record-timestamps";
+    private static String tsFilesBaseInitial = "/sdcard/cryptohooker-ts/initial-ts-";
+    private static String tsFilesBase = "/sdcard/cryptohooker-ts/ts-";
+    private static String indexFilesBase = "/sdcard/cryptohooker-ts/index-";
 
     public static int availableBlocks = 1244443;
     public static int availableBytes = 1244443 * 4096;
